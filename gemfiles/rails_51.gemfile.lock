@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/sass/sassc-rails
+  revision: 17d7e34f9139c3947690f4d45a59b51442937b6c
+  specs:
+    sassc-rails (2.0.0)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
+
 PATH
   remote: ..
   specs:
@@ -278,12 +289,6 @@ GEM
     sassc (2.0.0)
       ffi (~> 1.9.6)
       rake
-    sassc-rails (2.0.0)
-      railties (>= 4.0.0)
-      sassc (>= 2.0)
-      sprockets (> 3.0)
-      sprockets-rails
-      tilt
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
@@ -348,7 +353,7 @@ DEPENDENCIES
   rails-i18n
   rake
   rspec-rails
-  sassc-rails (~> 2.0)
+  sassc-rails!
   selenium-webdriver
   simplecov
   sqlite3

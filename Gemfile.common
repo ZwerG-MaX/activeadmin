@@ -10,7 +10,7 @@ gem 'jruby-openssl', '~> 0.10.1', platform: :jruby
 gem 'draper', '~> 3.0'
 gem "devise", '~> 4.4'
 
-gem 'sassc-rails', '~> 2.0'
+gem 'sassc-rails', git: 'https://github.com/sass/sassc-rails'
 
 group :test do
   gem 'capybara', '~> 3.10'
